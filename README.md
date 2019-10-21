@@ -7,7 +7,7 @@ A sample express application used to verify dd-trace-js interactions with sequel
 
 - clone (or fork and then clone) this repository locally
 - `cd sample_sequelize_express_application`
-- ensure postgresql is running locally (a useful setup guide [here](`https://www.robinwieruch.de/postgres-sql-macos-setup`) )
+- ensure postgresql is running locally (a useful setup guide [here](https://www.robinwieruch.de/postgres-sql-macos-setup) )
 - ensure postgres is listening at 127.0.0.1:5432 (or edit `server/config/config/json` as needed)
 - `createdb todos-dev`
 - the package.json defaults to testing against sequelize `v5`.
